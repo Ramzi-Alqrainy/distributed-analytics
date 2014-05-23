@@ -1,12 +1,51 @@
-*.class
+# Backups
+##############
+*~
+*.old
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Python
+##############
+*.pyc
+*.pyo
+*.egg-info
+build
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# C/C++
+##############
+*.o
+*.so
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# OS generated
+##############
+.directory
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+
+# Eclipse/Aptana IDE generated
+###################
+.project
+.pydevproject
+.settings
+.build
+
+# VIM Editor
+###################
+*.swp
+
+# Netbeans IDE generated
+################
+nbproject/*
+
+# Komodo IDE generated
+################
+*.kpf
+
+# Engine Specific
+################
+engine/**/data
+engine/**/logs
+distributed-analytics/**/data
+distributed-analytics/**/logs
+
+ 
